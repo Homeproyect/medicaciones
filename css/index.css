@@ -1,0 +1,70 @@
+/*.{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+..nav{
+  width: auto;
+  height:70px ;
+  background-color: rgb(75, 206, 118);
+  
+  align-items:center;
+  padding: 0px 50px 0px 50px;
+  justify-content:right;
+  
+}*/
+
+
+  
+
+body{
+
+  background-size: cover;
+background-repeat:no-repeat ;
+background-position: center;
+background-attachment:fixed;
+           background-color:rgb(186, 248, 170);
+}
+
+
+.med{
+  display: inline-block;
+  position: relative;
+  
+}
+.med1{
+ 
+  display: none;
+  position: absolute;
+  width:100% ;
+  overflow: auto;
+  box-shadow: opx 8px 10px 0px red ;
+  background-color:rgb(222, 231, 225);
+}
+
+.med:hover .med1 {
+  display: block;
+}
+.med1 a {
+  text-decoration:none;
+  color:black;
+  font-weight: bolder;
+  
+  font-family:sans-serif;
+}
+.med1 a:hover {
+  text-decoration:none;
+  color:black;
+  font-weight: bolder;
+  background-color: rgb(95, 104, 104);
+ 
+}
+
+button{
+  height:70px ;
+  width: 150px;
+
+font-weight: bolder;
+text-align: center;
+}
